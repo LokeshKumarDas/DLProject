@@ -5,6 +5,7 @@ import tensorflow as tf
 import time
 from pathlib import Path
 from cnnClassifier.entity.config_entity import TrainingConfig
+import pickle
 
 class Training:
     def __init__(self, config: TrainingConfig):
@@ -62,6 +63,8 @@ class Training:
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
         model.save(path)
+        with open('model.pkl', 'wb') as file:
+            pickle.dump(model, file)
     
     def train(self):
         self.steps_per_epoch = self.train_generator.samples // self.train_generator.batch_size

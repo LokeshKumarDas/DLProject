@@ -16,7 +16,7 @@ class PredictionPipeline:
         
         # from artifacts/training/model.h5 created model folder and moved model.h5 file in this folder
         model = load_model(os.path.join("model", "model.h5"))
-
+        
         imagename = self.filename
         test_image = image.load_img(imagename, target_size = (224,224))
         test_image = image.img_to_array(test_image)
