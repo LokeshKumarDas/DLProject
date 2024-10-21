@@ -50,3 +50,96 @@ x==========x]
 [2024-10-21 14:13:17,982: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
 
 x==========x]
+[2024-10-21 15:01:29,356: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-21 15:01:29,359: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-21 15:01:29,361: INFO: common: created directory at: artifacts]
+[2024-10-21 15:01:29,363: INFO: common: created directory at: artifacts\training]
+[2024-10-21 15:16:13,761: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-21 15:16:13,764: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-21 15:16:13,765: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-21 15:16:13,766: INFO: common: created directory at: artifacts]
+[2024-10-21 15:16:13,766: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-21 15:16:13,767: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/152a8M2at3UihO7Al41hfZVMgG8PJimWu/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-21 15:16:24,904: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/152a8M2at3UihO7Al41hfZVMgG8PJimWu/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-21 15:16:26,221: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-21 15:16:26,222: INFO: main: *******************]
+[2024-10-21 15:16:26,222: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-21 15:16:26,226: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-21 15:16:26,228: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-21 15:16:26,229: INFO: common: created directory at: artifacts]
+[2024-10-21 15:16:26,231: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-10-21 15:16:26,961: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-21 15:16:27,240: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-21 15:16:27,241: INFO: main: *******************]
+[2024-10-21 15:16:27,241: INFO: main: >>>>>> stage Training started<<<<<<]
+[2024-10-21 15:16:27,241: ERROR: main: name 'ConfigurationManager' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\DLProject\main.py", line 44, in <module>
+    obj.main()
+  File "C:\Users\HP\Desktop\DLProject\main.py", line 34, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ConfigurationManager' is not defined
+[2024-10-21 15:18:28,694: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-21 15:18:28,698: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-21 15:18:28,700: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-21 15:18:28,701: INFO: common: created directory at: artifacts]
+[2024-10-21 15:18:28,701: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-21 15:18:28,702: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/152a8M2at3UihO7Al41hfZVMgG8PJimWu/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-21 15:18:38,844: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/152a8M2at3UihO7Al41hfZVMgG8PJimWu/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-21 15:18:39,760: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-21 15:18:39,761: INFO: main: *******************]
+[2024-10-21 15:18:39,761: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-21 15:18:39,763: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-21 15:18:39,765: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-21 15:18:39,766: INFO: common: created directory at: artifacts]
+[2024-10-21 15:18:39,766: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-10-21 15:18:40,242: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-21 15:18:40,624: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-21 15:18:40,624: INFO: main: *******************]
+[2024-10-21 15:18:40,624: INFO: main: >>>>>> stage Training started<<<<<<]
+[2024-10-21 15:18:40,625: ERROR: main: name 'ConfigurationManager' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\DLProject\main.py", line 45, in <module>
+    obj.main()
+  File "C:\Users\HP\Desktop\DLProject\main.py", line 35, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ConfigurationManager' is not defined
+[2024-10-21 15:29:38,488: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-21 15:29:38,491: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-21 15:29:38,493: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-21 15:29:38,494: INFO: common: created directory at: artifacts]
+[2024-10-21 15:29:38,494: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-21 15:29:38,494: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/152a8M2at3UihO7Al41hfZVMgG8PJimWu/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-21 15:29:49,355: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/152a8M2at3UihO7Al41hfZVMgG8PJimWu/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-21 15:29:51,050: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-21 15:29:51,051: INFO: main: *******************]
+[2024-10-21 15:29:51,053: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-21 15:29:51,060: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-21 15:29:51,063: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-21 15:29:51,065: INFO: common: created directory at: artifacts]
+[2024-10-21 15:29:51,068: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-10-21 15:29:52,024: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-21 15:29:52,279: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-21 15:29:52,280: INFO: main: *******************]
+[2024-10-21 15:29:52,280: INFO: main: >>>>>> stage Training started<<<<<<]
+[2024-10-21 15:29:52,282: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-21 15:29:52,284: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-21 15:29:52,284: INFO: common: created directory at: artifacts]
+[2024-10-21 15:29:52,286: INFO: common: created directory at: artifacts\training]
+[2024-10-21 15:30:56,950: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
