@@ -634,3 +634,51 @@ x==========x]
 [2024-10-21 19:06:53,923: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-10-21 19:10:15,202: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-21 19:10:15,202: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-21 19:10:15,225: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-21 19:10:15,227: INFO: common: created directory at: artifacts]
+[2024-10-21 19:10:15,228: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-21 19:10:15,228: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/152a8M2at3UihO7Al41hfZVMgG8PJimWu/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-21 19:10:25,224: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/152a8M2at3UihO7Al41hfZVMgG8PJimWu/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-21 19:10:25,961: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-21 19:10:25,961: INFO: main: *******************]
+[2024-10-21 19:10:25,961: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-21 19:10:25,961: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-21 19:10:25,961: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-21 19:10:25,961: INFO: common: created directory at: artifacts]
+[2024-10-21 19:10:25,961: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-10-21 19:10:26,560: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-21 19:10:26,858: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-21 19:10:26,858: INFO: main: *******************]
+[2024-10-21 19:10:26,858: INFO: main: >>>>>> stage Training started<<<<<<]
+[2024-10-21 19:10:26,858: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-21 19:10:26,858: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-21 19:10:26,858: INFO: common: created directory at: artifacts]
+[2024-10-21 19:10:26,858: INFO: common: created directory at: artifacts\training]
+[2024-10-21 19:11:48,739: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-10-21 19:11:48,741: INFO: main: *******************]
+[2024-10-21 19:11:48,741: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-10-21 19:11:48,749: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-21 19:11:48,752: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-21 19:11:48,753: INFO: common: created directory at: artifacts]
+[2024-10-21 19:12:13,604: INFO: common: json file saved at: scores.json]
+[2024-10-21 19:12:13,607: INFO: common: json file saved at: scores.json]
+[2024-10-21 19:12:14,291: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-10-21 19:12:14,315: INFO: helpers: Accessing as LokeshKumarDas]
+[2024-10-21 19:12:14,850: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/LokeshKumarDas/DLProject "HTTP/1.1 200 OK"]
+[2024-10-21 19:12:14,857: INFO: helpers: Initialized MLflow to track repo "LokeshKumarDas/DLProject"]
+[2024-10-21 19:12:14,858: INFO: helpers: Repository LokeshKumarDas/DLProject initialized!]
+[2024-10-21 19:12:17,070: INFO: model_evaluation: Tracking Model using MLFlow]
+[2024-10-21 19:12:17,070: INFO: model_evaluation: MLFlow got the model using uri given]
+[2024-10-21 19:12:18,474: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-10-21 19:12:19,380: INFO: builder_impl: Assets written to: C:\Users\HP\AppData\Local\Temp\tmp4zmcmk9l\model\data\model\assets]
+[2024-10-21 19:13:01,266: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
