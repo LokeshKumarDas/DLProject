@@ -2,4 +2,4 @@
 
 cython_debug/
 
-artifacts/*
+artifacts/
