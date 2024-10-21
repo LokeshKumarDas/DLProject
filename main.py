@@ -49,3 +49,9 @@ try:
 except Exception as e:
         logger.exception(e)
         raise e
+    
+    
+# to execute run 
+# dvc init
+# dvc repro
+# dvc dag # to visualize the pipeline
