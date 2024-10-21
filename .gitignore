@@ -2,4 +2,8 @@
 
 cython_debug/
 
+artifacts/data_ingestion/
+artifacts/prepare_base_model/
+artifacts/training/
 artifacts/
+
