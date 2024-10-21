@@ -721,3 +721,119 @@ x==========x]
 [2024-10-21 20:31:54,049: INFO: stage_4_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-10-21 21:11:53,430: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.8.85.58:8080]
+[2024-10-21 21:11:53,431: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-21 21:12:14,605: INFO: _internal: 127.0.0.1 - - [21/Oct/2024 21:12:14] "GET / HTTP/1.1" 200 -]
+[2024-10-21 21:12:25,020: INFO: _internal: 127.0.0.1 - - [21/Oct/2024 21:12:25] "POST /predict HTTP/1.1" 200 -]
+[2024-10-21 21:12:34,725: INFO: _internal: 127.0.0.1 - - [21/Oct/2024 21:12:34] "POST /predict HTTP/1.1" 200 -]
+[2024-10-21 21:12:37,902: INFO: _internal: 127.0.0.1 - - [21/Oct/2024 21:12:37] "POST /predict HTTP/1.1" 200 -]
+[2024-10-21 21:12:47,567: INFO: _internal: 127.0.0.1 - - [21/Oct/2024 21:12:47] "POST /predict HTTP/1.1" 200 -]
+[2024-10-21 21:12:51,400: WARNING: polymorphic_function: 5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001DE30DD2E80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2024-10-21 21:12:51,400: INFO: _internal: 127.0.0.1 - - [21/Oct/2024 21:12:51] "POST /predict HTTP/1.1" 200 -]
+[2024-10-21 21:13:50,457: INFO: stage_4_model_evaluation: *******************]
+[2024-10-21 21:13:50,459: INFO: stage_4_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-10-21 21:13:50,465: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-21 21:13:50,467: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-21 21:13:50,469: INFO: common: created directory at: artifacts]
+[2024-10-21 21:14:15,749: INFO: common: json file saved at: scores.json]
+[2024-10-21 21:14:15,753: INFO: common: json file saved at: scores.json]
+[2024-10-21 21:14:16,948: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"]
+[2024-10-21 21:14:16,969: INFO: helpers: Accessing as LokeshKumarDas]
+[2024-10-21 21:14:17,542: INFO: _client: HTTP Request: GET https://dagshub.com/api/v1/repos/LokeshKumarDas/DLProject "HTTP/1.1 200 OK"]
+[2024-10-21 21:14:17,551: INFO: helpers: Initialized MLflow to track repo "LokeshKumarDas/DLProject"]
+[2024-10-21 21:14:17,553: INFO: helpers: Repository LokeshKumarDas/DLProject initialized!]
+[2024-10-21 21:14:19,983: INFO: model_evaluation: Tracking Model using MLFlow]
+[2024-10-21 21:14:19,985: INFO: model_evaluation: MLFlow got the model using uri given]
+[2024-10-21 21:14:22,874: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-10-21 21:14:24,402: INFO: builder_impl: Assets written to: C:\Users\HP\AppData\Local\Temp\tmp4azfrw50\model\data\model\assets]
+[2024-10-21 21:15:15,826: INFO: stage_4_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-10-21 21:15:17,919: INFO: _internal: 127.0.0.1 - - [21/Oct/2024 21:15:17] "GET /train HTTP/1.1" 200 -]
+[2024-10-21 21:15:18,030: INFO: _internal: 127.0.0.1 - - [21/Oct/2024 21:15:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-10-21 21:19:55,576: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.8.85.58:8080]
+[2024-10-21 21:19:55,577: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-21 21:20:19,450: INFO: _internal: 10.8.85.58 - - [21/Oct/2024 21:20:19] "GET / HTTP/1.1" 200 -]
+[2024-10-21 21:20:32,206: INFO: _internal: 10.8.85.58 - - [21/Oct/2024 21:20:32] "POST /predict HTTP/1.1" 200 -]
+[2024-10-21 21:21:20,399: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.8.85.58:8080]
+[2024-10-21 21:21:20,402: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-21 21:21:27,460: INFO: _internal: 10.8.85.58 - - [21/Oct/2024 21:21:27] "GET / HTTP/1.1" 200 -]
+[2024-10-21 21:21:36,684: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\DLProject\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DLProject\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DLProject\venv\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DLProject\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DLProject\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DLProject\venv\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DLProject\app.py", line 38, in predictRoute
+    return jsonify(result)['image']
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+TypeError: 'Response' object is not subscriptable
+[2024-10-21 21:21:36,687: INFO: _internal: 10.8.85.58 - - [21/Oct/2024 21:21:36] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-10-21 21:22:19,588: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.8.85.58:8080]
+[2024-10-21 21:22:19,590: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-21 21:22:27,168: INFO: _internal: 10.8.85.58 - - [21/Oct/2024 21:22:27] "GET / HTTP/1.1" 200 -]
+[2024-10-21 21:22:36,092: INFO: _internal: 10.8.85.58 - - [21/Oct/2024 21:22:36] "POST /predict HTTP/1.1" 200 -]
+[2024-10-21 21:23:07,552: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.8.85.58:8080]
+[2024-10-21 21:23:07,552: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-21 21:23:12,697: INFO: _internal: 10.8.85.58 - - [21/Oct/2024 21:23:12] "GET / HTTP/1.1" 200 -]
+[2024-10-21 21:23:20,907: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\DLProject\venv\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DLProject\venv\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DLProject\venv\Lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DLProject\venv\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DLProject\venv\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DLProject\venv\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\Desktop\DLProject\app.py", line 38, in predictRoute
+    return result['image']
+           ~~~~~~^^^^^^^^^
+TypeError: list indices must be integers or slices, not str
+[2024-10-21 21:23:20,911: INFO: _internal: 10.8.85.58 - - [21/Oct/2024 21:23:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-10-21 21:24:30,765: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.8.85.58:8080]
+[2024-10-21 21:24:30,765: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-21 21:24:35,735: INFO: _internal: 10.8.85.58 - - [21/Oct/2024 21:24:35] "GET / HTTP/1.1" 200 -]
+[2024-10-21 21:24:45,794: INFO: _internal: 10.8.85.58 - - [21/Oct/2024 21:24:45] "POST /predict HTTP/1.1" 200 -]
